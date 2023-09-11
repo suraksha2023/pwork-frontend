@@ -77,14 +77,23 @@ export default function FooterSection() {
             </div>
             <div className={`${styles.footerBottom}`}>
                 <div className={`container`}>
-                    <div className={`row`}>
-                        <div className={`col-md-6`}>
+                    <div className={`row justify-content-between  align-items-center`}>
+                        <div className={`col-9`}>
                             <ul className={`nav`}>
                                 <li className={`nav-item`}><Link href={`/`}>Contact</Link></li>
                                 <li className={`nav-item`}><Link href={`/`}>Privacy</Link></li>
                                 <li className={`nav-item`}><Link href={`/`}>Terms of use</Link></li>
                                 <li className={`nav-item`}><Link href={`/`}>Accessibility</Link></li>
                                 <li className={`nav-item`}><Link href={`/`}>Cookie</Link></li>
+                            </ul>
+                        </div>
+                        <div className={`col text-end`}>
+                            <ul className={`nav ms-auto`}>
+                                <li className={`nav-item`}><Link href={`/`}><img src={`../images/fb.svg`} /></Link></li>
+                                <li className={`nav-item`}><Link href={`/`}><img src={`../images/instagram.svg`} /></Link></li>
+                                <li className={`nav-item`}><Link href={`/`}><img src={`../images/youtube.svg`} /></Link></li>
+                                <li className={`nav-item`}><Link href={`/`}><img src={`../images/twitter.svg`} /></Link></li>
+                                <li className={`nav-item`}><Link href={`/`}><img src={`../images/linkedin.svg`} /></Link></li>
                             </ul>
                         </div>
                     </div>
