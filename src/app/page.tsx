@@ -5,6 +5,7 @@ import Slider from "../../components/slider/slider";
 import IntroSection from "../../components/introSection/introSection";
 import FooterSection from "../../components/footerSection/footerSection";
 import PartnerSection from "../../components/partnerSection/partnerSection";
+import InfraSection from "../../components/infraSection/infraSection";
 
 
 export default function Home() {
@@ -14,6 +15,7 @@ export default function Home() {
         <Slider/>
         <IntroSection/>
         <PartnerSection/>
+        <InfraSection/>
         <FooterSection/>
     </div>
   )
