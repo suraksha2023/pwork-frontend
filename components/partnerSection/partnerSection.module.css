@@ -1,0 +1,14 @@
+.partners {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.partners .partnerTitle h2 {
+  text-align: center;
+  color: #001D3D;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+/*# sourceMappingURL=partnerSection.module.css.map */
