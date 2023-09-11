@@ -3,6 +3,7 @@ import '../../styles/global.scss'
 import MainNav from "../../components/mainNav/mainNav";
 import Slider from "../../components/slider/slider";
 import IntroSection from "../../components/introSection/introSection";
+import FooterSection from "../../components/footerSection/footerSection";
 
 
 export default function Home() {
@@ -11,6 +12,7 @@ export default function Home() {
         <MainNav/>
         <Slider/>
         <IntroSection/>
+        <FooterSection/>
     </div>
   )
 }

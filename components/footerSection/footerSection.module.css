@@ -1,0 +1,75 @@
+.footerSection {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.footerSection .footerTop {
+  border-top: 1px solid #efefef;
+  border-bottom: 1px solid #efefef;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.footerSection .footerTop h3 {
+  color: #001D3D;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+}
+.footerSection .footerTop .callBtn {
+  line-height: 18px;
+}
+.footerSection .footerTop .callBtn p {
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+.footerSection .footerTop .callBtn h4 {
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  font-weight: 600;
+  color: #001D3D;
+}
+.footerSection .footerTop .callBtn .icon {
+  margin-right: 10px;
+}
+
+.footerBottom {
+  border-top: 1px solid #efefef;
+  padding-top: 20px;
+}
+.footerBottom ul li {
+  padding-right: 10px;
+  font-size: 13px;
+}
+.footerBottom ul li a {
+  text-decoration: none;
+}
+
+.footerMiddle {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.footerMiddle ul {
+  padding: 0px;
+  list-style: none;
+}
+.footerMiddle ul a {
+  text-decoration: none;
+  color: #001D3D;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  padding-bottom: 4px;
+}
+.footerMiddle p {
+  color: #001D3D;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+}
+.footerMiddle h3 {
+  color: #001D3D;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+/*# sourceMappingURL=footerSection.module.css.map */
