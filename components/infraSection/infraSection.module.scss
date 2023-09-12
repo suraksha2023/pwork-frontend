@@ -3,4 +3,45 @@
   padding-top: 40px;
   padding-bottom: 40px;
   background-size: cover;
+  min-height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .infraContent{
+    h2{
+      color: #001D3D;
+      font-size: 66px;
+      font-weight: 600;
+    }
+    p{
+      color: #001D3D;
+      font-size: 18px;
+      font-weight: 600;
+    }
+  }
+}
+
+.infraBottom{
+  margin-top: -40px;
+  margin-bottom: 20px;
+  .image{
+    margin-bottom: 20px;
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    img{
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+  h3{
+    color: #001D3D;
+    font-size: 19px;
+    font-weight: 600;
+  }
+  p{
+    color: #001D3D;
+    font-size: 17px;
+    font-weight: 400;
+  }
 }
