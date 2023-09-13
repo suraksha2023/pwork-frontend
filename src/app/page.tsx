@@ -6,6 +6,8 @@ import IntroSection from "../../components/introSection/introSection";
 import FooterSection from "../../components/footerSection/footerSection";
 import PartnerSection from "../../components/partnerSection/partnerSection";
 import InfraSection from "../../components/infraSection/infraSection";
+import SectorSection from "../../components/sectorSection/sectorSection";
+import AboutSection from "../../components/aboutSection/aboutSection";
 
 
 export default function Home() {
@@ -14,6 +16,8 @@ export default function Home() {
         <MainNav/>
         <Slider/>
         <IntroSection/>
+        <AboutSection/>
+        <SectorSection/>
         <PartnerSection/>
         <InfraSection/>
         <FooterSection/>

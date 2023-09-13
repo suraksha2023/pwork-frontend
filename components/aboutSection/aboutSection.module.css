@@ -1,0 +1,36 @@
+.aboutSection {
+  padding-top: 80px;
+  padding-bottom: 120px;
+}
+.aboutSection h2 {
+  color: #001D3D;
+  font-size: 36px;
+  font-weight: 700;
+  padding-bottom: 20px;
+}
+.aboutSection p {
+  color: #001D3D;
+  font-size: 16px;
+  font-weight: 400;
+  padding-bottom: 20px;
+}
+.aboutSection .content ul li {
+  position: relative;
+  list-style: none;
+  color: #001D3D;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 600;
+}
+.aboutSection .content ul li:before {
+  position: absolute;
+  content: " ";
+  background: url("/../../images/arrow.svg");
+  top: 5px;
+  left: -32px;
+  width: 20px;
+  background-repeat: no-repeat;
+  height: 20px;
+}
+
+/*# sourceMappingURL=aboutSection.module.css.map */
