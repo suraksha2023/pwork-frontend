@@ -1,0 +1,43 @@
+.slider {
+  background: #F9F9F9;
+  position: relative;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.slider .image {
+  position: relative;
+}
+.slider:before {
+  position: absolute;
+  content: " ";
+  right: 0px;
+  background: url("/../../images/shape.svg");
+  width: 340px;
+  height: 100%;
+  top: 0px;
+}
+.slider .content {
+  padding-right: 80px;
+  padding-left: 80px;
+  z-index: 1;
+  position: relative;
+}
+.slider h2 {
+  color: #001D3D;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 600;
+  padding-bottom: 20px;
+}
+.slider p {
+  color: #4A4A4A;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  padding-bottom: 20px;
+}
+.slider img {
+  width: 100%;
+}
+
+/*# sourceMappingURL=slider.module.css.map */

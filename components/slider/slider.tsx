@@ -21,7 +21,7 @@ export default function Slider() {
                                 </div>
                             </div>
                             <div className={`col-md-6`}>
-                                <div className={`$styles.image`}>
+                                <div className={`${styles.image}`}>
                                     <img src={`../images/slider.png`} />
                                 </div>
                             </div>

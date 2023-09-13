@@ -3,6 +3,9 @@
   position: relative;
   padding-top: 80px;
   padding-bottom: 80px;
+  .image{
+    position: relative;
+  }
   &:before{
     position: absolute;
     content: " ";
