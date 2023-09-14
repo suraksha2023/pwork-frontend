@@ -1,0 +1,36 @@
+.blogSection {
+  margin-bottom: 20px;
+}
+.blogSection h5 {
+  font-size: 14px;
+}
+.blogSection h2 {
+  color: #001D3D;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  padding-bottom: 40px;
+  padding-top: 40px;
+}
+.blogSection .image {
+  margin-bottom: 20px;
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+}
+.blogSection .image img {
+  width: 100%;
+  object-fit: cover;
+}
+.blogSection h3 {
+  color: #001D3D;
+  font-size: 19px;
+  font-weight: 600;
+}
+.blogSection p {
+  color: #001D3D;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+/*# sourceMappingURL=blogSection.module.css.map */

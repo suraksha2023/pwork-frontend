@@ -1,0 +1,12 @@
+.innerHero {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  color: #001D3D;
+  background: url("/../images/innerhero.png");
+  object-fit: cover;
+}
+.innerHero h2 {
+  font-weight: 600;
+}
+
+/*# sourceMappingURL=innerHero.module.css.map */

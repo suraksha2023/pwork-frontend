@@ -1,0 +1,17 @@
+.filterSection {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+}
+.filterSection h3 {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  padding-bottom: 20px;
+}
+.filterSection label {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+/*# sourceMappingURL=filter.module.css.map */
