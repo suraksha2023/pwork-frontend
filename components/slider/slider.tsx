@@ -2,8 +2,8 @@ import React from "react";
 import styles from './slider.module.scss'
 
 
-export default function Slider() {
-
+export default function Slider({slider}: any)  {
+console.log('slider:', slider)
     return (
         <div>
             <div className={`${styles.slider}`}>
@@ -12,17 +12,23 @@ export default function Slider() {
                         <div className={`row justify-content-center align-items-center`}>
                             <div className={`col-md-6`}>
                                 <div className={`${styles.content}`}>
-                                    <h2>Smart Security System for Morden World</h2>
-                                    <p>Futureproofing your network infrastructure with an unrivalled service and support system.</p>
+                                    <h2>{slider.banner[0].intro_line}</h2>
+                                    <p>{slider.banner[0].paragraph}</p>
                                     <div className={`d-flex align-items-start`}>
-                                        <button className={`btn btn-primary`}>Read More</button>
-                                        <button className={`btn btn-link`}>Get Quote Now</button>
+
+                                        {slider.banner[0].button.map((element: any, index: any) => (
+                                               <button className={`btn btn-primary`} key={index}>{element.button_text}</button>
+                                                ))}
+
+{/*
+                                        <button className={`btn btn-primary`}></button>
+                                        <button className={`btn btn-link`}></button>*/}
                                     </div>
                                 </div>
                             </div>
                             <div className={`col-md-6`}>
                                 <div className={`${styles.image}`}>
-                                    <img src={`../images/slider.png`} />
+                                    <img src={slider.banner[0].banner_image} />
                                 </div>
                             </div>
                         </div>

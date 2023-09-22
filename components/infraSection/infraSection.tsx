@@ -2,8 +2,8 @@ import React from "react";
 import styles from './infraSection.module.scss'
 
 
-export default function InfraSection() {
-
+export default function InfraSection({infrasection}: any) {
+  console.log('infrasection:', infrasection)  
     return (
         <div>
             <div className={`${styles.infraSection}`}>
@@ -11,8 +11,8 @@ export default function InfraSection() {
                     <div className={`row align-items-start`}>
                         <div className={`col-md-6`}>
                             <div className={`${styles.infraContent}`}>
-                                <h2>Infrastructure Services</h2>
-                                <p>Imagine a future where IT infrastructures can monitor themselves, predict and respond to future business needs and protect and heal themselves.</p>
+                                <h2>{infrasection.heading}</h2>
+                                <p>{infrasection.paragraph}</p>
                             </div>
                         </div>
                     </div>
@@ -25,11 +25,11 @@ export default function InfraSection() {
                         <div className={`col-md-4`}>
                             <div className={`${styles.infraCard}`}>
                                 <div className={`${styles.image}`}>
-                                    <img src={`../../images/infra-1.png`} />
+                                    <img src={infrasection.infrasec[0].image} />
                                 </div>
                                 <div className={`${styles.content}`}>
-                                    <h3>What is Epabx and How it Works?</h3>
-                                    <p>Dear Customers, We at Value Point are celebrating 3 decades of uninterrupted service to you, our amazing customers! In...</p>
+                                    <h3>{infrasection.infrasec[0].title}</h3>
+                                    <p>{infrasection.infrasec[0].paragraph}</p>
                                 </div>
                             </div>
 
@@ -37,11 +37,11 @@ export default function InfraSection() {
                         <div className={`col-md-4`}>
                             <div className={`${styles.infraCard}`}>
                                 <div className={`${styles.image}`}>
-                                    <img src={`../../images/infra-2.png`} />
+                                    <img src={infrasection.infrasec[1].image} />
                                 </div>
                                 <div className={`${styles.content}`}>
-                                    <h3>What is Epabx and How it Works?</h3>
-                                    <p>Dear Customers, We at Value Point are celebrating 3 decades of uninterrupted service to you, our amazing customers! In...</p>
+                                    <h3>{infrasection.infrasec[1].title}</h3>
+                                    <p>{infrasection.infrasec[1].paragraph}</p>
                                 </div>
                             </div>
 
@@ -49,11 +49,11 @@ export default function InfraSection() {
                         <div className={`col-md-4`}>
                             <div className={`${styles.infraCard}`}>
                                 <div className={`${styles.image}`}>
-                                    <img src={`../../images/infra-3.png`} />
+                                    <img src={infrasection.infrasec[2].image} />
                                 </div>
                                 <div className={`${styles.content}`}>
-                                    <h3>What is Epabx and How it Works?</h3>
-                                    <p>Dear Customers, We at Value Point are celebrating 3 decades of uninterrupted service to you, our amazing customers! In...</p>
+                                    <h3>{infrasection.infrasec[2].title}</h3>
+                                    <p>{infrasection.infrasec[2].paragraph}</p>
                                 </div>
                             </div>
 

@@ -3,31 +3,31 @@ import styles from './footerSection.module.scss'
 import Link from "next/link";
 
 
-export default function FooterSection() {
-
+export default function FooterSection({footersection}): any {
+  console.log('footersection:',footersection)
     return (
         <div className={`${styles.footerSection}`}>
             <div className={`${styles.footerTop}`}>
                     <div className={`container`}>
                         <div className={`row justify-content-center align-items-center`}>
                         <div className={`col-md-6`}>
-                            <h3>Protect Your Home Or Business With Our Unique Solutions</h3>
+                            <h3>{footersection.contact.introline}</h3>
                         </div>
                         <div className={`col-md-3`}>
-                            <button className={`btn btn-primary`}>Discover More  Info</button>
+                             <div className={`$styles.callToAction`}><button className={`btn btn-primary`}>{footersection.contact.button}</button></div>
                         </div>
                         <div className={`col-md-3`}>
                             <div className={`${styles.callBtn}`}>
                                 <div></div>
                                 <div className={`d-flex justify-content-center align-items-center`}>
                                     <div className={`${styles.icon}`}>
-                                        <img src={`../images/call.svg`} />
+                                        <img src={footersection.contact.image} />
                                     </div>
                                     <div>
-                                        <p>CALL US NOW</p>
-                                        <h4>+91 98765 43210</h4>
+                                        <p>{footersection.contact.paragraph}</p>
+                                        <h4>{footersection.contact.title}</h4>
                                     </div>
-                                </div>
+                                </div>  
 
                             </div>
                         </div>
@@ -39,36 +39,38 @@ export default function FooterSection() {
                     <div className={`row`}>
                         <div className={`col-md-3`}>
                             <div>
-                                <h3>Company</h3>
+                                <h3>{footersection.FooterTop[0].heading}</h3>
                                 <ul>
-                                    <li><Link href={`/`}>Company</Link></li>
-                                    <li><Link href={`/`}>What we do?</Link></li>
-                                    <li><Link href={`/`}>Who are we?</Link></li>
-                                    <li><Link href={`/`}>Careers</Link></li>
-                                    <li><Link href={`/`}>Vision & Mission</Link></li>
+                                    <li><Link href={`/`}>{footersection.FooterTop[0].menu[0].title}</Link></li>
+                                    <li><Link href={`/`}>{footersection.FooterTop[0].menu[1].title}</Link></li>
+                                    <li><Link href={`/`}>{footersection.FooterTop[0].menu[2].title}</Link></li>
+                                    <li><Link href={`/`}>{footersection.FooterTop[0].menu[3].title}</Link></li>
+                                    <li><Link href={`/`}>{footersection.FooterTop[0].menu[4].title}</Link></li>
                                 </ul>
                             </div>
                         </div>
                         <div className={`col-md-3`}>
                             <div>
-                                <h3>Our Products</h3>
+                                <h3>{footersection.FooterTop[1].heading}</h3>
                                 <ul>
-                                    <li><Link href={`/`}>Biometric System</Link></li>
-                                    <li><Link href={`/`}>CCTV System Service</Link></li>
-                                    <li><Link href={`/`}>Connectivity Solutions</Link></li>
-                                    <li><Link href={`/`}>EPABX Solution</Link></li>
-                                    <li><Link href={`/`}>Home Automation</Link></li>
+                                    <li><Link href={`/`}>{footersection.FooterTop[1].menu[0].title}</Link></li>
+                                    <li><Link href={`/`}>{footersection.FooterTop[1].menu[1].title}</Link></li>
+                                    <li><Link href={`/`}>{footersection.FooterTop[1].menu[2].title}</Link></li>
+                                    <li><Link href={`/`}>{footersection.FooterTop[1].menu[3].title}</Link></li>
+                                    <li><Link href={`/`}>{footersection.FooterTop[1].menu[4].title}</Link></li>
                                 </ul>
                             </div>
                         </div>
                         <div className={`col-md-6`}>
                             <div className={`row justify-content-end`}>
                                 <div className={`col-md-5`}>
-                                    <h3>Our Location</h3>
-                                    <p>No. 839, First Floor, 9th Main,
-                                        1st Block HRBR Layout,
-                                        Kalyan Nagar, Bangalore,
-                                        Karnataka, India – 560 043.</p>
+                                    <h3>{footersection.FooterTop[2].heading}</h3>
+                                   <ul>
+                                    <li><Link href={`/`}>{footersection.FooterTop[2].menu[0].title}</Link></li>
+                                    <li><Link href={`/`}>{footersection.FooterTop[2].menu[1].title}</Link></li>
+                                    <li><Link href={`/`}>{footersection.FooterTop[2].menu[2].title}</Link></li>
+                                    <li><Link href={`/`}>{footersection.FooterTop[2].menu[3].title}</Link></li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
@@ -80,20 +82,20 @@ export default function FooterSection() {
                     <div className={`row justify-content-between  align-items-center`}>
                         <div className={`col-9`}>
                             <ul className={`nav`}>
-                                <li className={`nav-item`}><Link href={`/`}>Contact</Link></li>
-                                <li className={`nav-item`}><Link href={`/`}>Privacy</Link></li>
-                                <li className={`nav-item`}><Link href={`/`}>Terms of use</Link></li>
-                                <li className={`nav-item`}><Link href={`/`}>Accessibility</Link></li>
-                                <li className={`nav-item`}><Link href={`/`}>Cookie</Link></li>
+                                <li className={`nav-item`}><Link href={`/`}>{footersection.footerbottom[0].title}</Link></li>
+                                <li className={`nav-item`}><Link href={`/`}>{footersection.footerbottom[1].title}</Link></li>
+                                <li className={`nav-item`}><Link href={`/`}>{footersection.footerbottom[2].title}</Link></li>
+                                <li className={`nav-item`}><Link href={`/`}>{footersection.footerbottom[3].title}</Link></li>
+                                <li className={`nav-item`}><Link href={`/`}>{footersection.footerbottom[4].title}</Link></li>
                             </ul>
                         </div>
                         <div className={`col text-end`}>
                             <ul className={`nav ms-auto`}>
-                                <li className={`nav-item`}><Link href={`/`}><img src={`../images/fb.svg`} /></Link></li>
-                                <li className={`nav-item`}><Link href={`/`}><img src={`../images/instagram.svg`} /></Link></li>
-                                <li className={`nav-item`}><Link href={`/`}><img src={`../images/youtube.svg`} /></Link></li>
-                                <li className={`nav-item`}><Link href={`/`}><img src={`../images/twitter.svg`} /></Link></li>
-                                <li className={`nav-item`}><Link href={`/`}><img src={`../images/linkedin.svg`} /></Link></li>
+                                <li className={`nav-item`}><Link href={`/`}><img src={footersection.socialicons[0].logo} /></Link></li>
+                                <li className={`nav-item`}><Link href={`/`}><img src={footersection.socialicons[1].logo} /></Link></li>
+                                <li className={`nav-item`}><Link href={`/`}><img src={footersection.socialicons[2].logo} /></Link></li>
+                                <li className={`nav-item`}><Link href={`/`}><img src={footersection.socialicons[3].logo} /></Link></li>
+                                <li className={`nav-item`}><Link href={`/`}><img src={footersection.socialicons[4].logo} /></Link></li>
                             </ul>
                         </div>
                     </div>
