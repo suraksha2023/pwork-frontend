@@ -2,8 +2,8 @@ import React from "react";
 import styles from './filter.module.scss'
 
 
-export default function Filter() {
-
+export default function Filter({filter}): any {
+   console.log('filter', filter)
     return (
         <div>
             <div className={`${styles.filterSection}`}>
@@ -13,7 +13,7 @@ export default function Filter() {
                         <div className="form-check pb-2">
                             <input className="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
                                 <label className="form-check-label" htmlFor="flexCheckDefault">
-                                    Dome CCTV
+                                    {filter.labels[0].label}
                                 </label>
                         </div>
                         <div className="form-check pb-2">

@@ -27,7 +27,7 @@ export default function Home(props: any) {
   )
 }
 
-export async function getServerSideProps() {
+  export async function getServerSideProps() {
   const baseUrl = new ApiService();
 
   const resmainNav = await fetch(baseUrl.getBaseUrl() + 'wp-json/acf/v3/mainNav');
