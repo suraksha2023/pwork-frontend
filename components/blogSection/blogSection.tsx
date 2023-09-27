@@ -2,7 +2,7 @@ import React from "react";
 import styles from './blogSection.module.scss'
 
 
-export default function BlogSection({blogsection}): any {
+export default function BlogSection({blogsection}: any) {
  console.log('blogsection', blogsection)
     return (
         <div>

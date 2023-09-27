@@ -1,0 +1,27 @@
+.productContent{
+  .img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    overflow: hidden;
+    margin-bottom: 20px;
+
+    img{
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .bottom{
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .content{
+    text-align: center;
+    h2{
+      font-size: 16px;
+      font-weight: 600;
+      margin-bottom: 0px;
+      padding-bottom: 0xp;
+    }
+  }
+}

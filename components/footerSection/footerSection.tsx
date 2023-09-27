@@ -3,7 +3,7 @@ import styles from './footerSection.module.scss'
 import Link from "next/link";
 
 
-export default function FooterSection({footersection}): any {
+export default function FooterSection({footersection}: any) {
   console.log('footersection:',footersection)
     return (
         <div className={`${styles.footerSection}`}>

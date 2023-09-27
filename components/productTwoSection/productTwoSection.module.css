@@ -1,0 +1,16 @@
+.productTwoSection {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .productTwoSection .image {
+    margin: auto;
+    text-align: center;
+  }
+  .productTwoSection h5 {
+    padding-bottom: 20px;
+  }
+  .productTwoSection p {
+    padding-bottom: 20px;
+  }
+  
+  /*# sourceMappingURL=productTwoSection.module.css.map */

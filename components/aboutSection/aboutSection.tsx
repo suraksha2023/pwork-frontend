@@ -2,7 +2,7 @@ import React from "react";
 import styles from './aboutSection.module.scss'
 
 
-export default function AboutSection({aboutsection}): any {
+export default function AboutSection({aboutsection}: any) {
     console.log('aboutsection:', aboutsection)
 
     return (

@@ -1,0 +1,13 @@
+.productSingleSection {
+    background: #001D3D;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: #F3F3F3;
+    text-align: center;
+  }
+  .productSingleSection h2 {
+    font-size: 26px;
+    font-weight: 600;
+  }
+  
+  /*# sourceMappingURL=productSingleSection.module.css.map */

@@ -2,7 +2,7 @@ import React from "react";
 import styles from './innerHero.module.scss'
 
 
-export default function InnerHero({innerhero}): any {
+export default function InnerHero({innerhero}: any ){
     console.log('innerhero', innerhero)
     return (
        <div className={`${styles.innerHero}`}>
