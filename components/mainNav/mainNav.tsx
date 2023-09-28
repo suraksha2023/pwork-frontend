@@ -1,5 +1,6 @@
 import React from "react";
 import styles from './mainNav.module.scss'
+import Link from 'next/link';
 
 
 export default function MainNav({mainnav}: any) {
@@ -17,7 +18,7 @@ export default function MainNav({mainnav}: any) {
                                 <ul className="nav">
                                              
                                          {mainnav.MenuList.map((element: any, index: any) => (
-                                               <li className="nav-item" key={index}>{element.list}</li>
+                                               <li className="nav-item" key={index}><Link className="nav-link active" href={`#`}>{element.list}</Link></li>
                                                 ))}
 
 
