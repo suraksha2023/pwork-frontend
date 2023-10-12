@@ -15,7 +15,7 @@ export default function AboutSection({aboutsection}: any) {
                             <p>{aboutsection.paragraph}</p>
                             <ul>
                                  {aboutsection.lists.map((element: any, index: any) => (
-                                 <li className="nav-item" key={index}>{element.list}</li>))}
+                                 <li className="nav-item" key={index}>{element.lists}</li>))}
                             </ul>
                         </div>
                     </div>

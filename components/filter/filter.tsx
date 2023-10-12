@@ -63,43 +63,43 @@ export default function Filter({filter}: any) {
                         <div className="form-check pb-2">
                             <input className="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
                             <label className="form-check-label" htmlFor="flexCheckDefault">
-                            {filter.brand.label[0].title}
+                            {filter.brand.label[0].label}
                             </label>
                         </div>
                         <div className="form-check pb-2">
                             <input className="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
                             <label className="form-check-label" htmlFor="flexCheckDefault">
-                            {filter.brand.label[1].title}
+                            {filter.brand.label[1].label}
                             </label>
                         </div>
                         <div className="form-check pb-2">
                             <input className="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
                             <label className="form-check-label" htmlFor="flexCheckDefault">
-                            {filter.brand.label[2].title}
+                            {filter.brand.label[2].label}
                             </label>
                         </div>
                         <div className="form-check pb-2">
                             <input className="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
                             <label className="form-check-label" htmlFor="flexCheckDefault">
-                            {filter.brand.label[3].title}
+                            {filter.brand.label[3].label}
                             </label>
                         </div>
                         <div className="form-check pb-2">
                             <input className="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
                             <label className="form-check-label" htmlFor="flexCheckDefault">
-                            {filter.brand.label[4].title}
+                            {filter.brand.label[4].label}
                             </label>
                         </div>
                         <div className="form-check pb-2">
                             <input className="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
                             <label className="form-check-label" htmlFor="flexCheckDefault">
-                            {filter.brand.label[5].title}
+                            {filter.brand.label[5].label}
                             </label>
                         </div>
                         <div className="form-check pb-2">
                             <input className="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
                             <label className="form-check-label" htmlFor="flexCheckDefault">
-                            {filter.brand.label[6].title}
+                            {filter.brand.label[6].label}
                             </label>
                         </div>
 

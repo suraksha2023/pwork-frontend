@@ -1,6 +1,6 @@
 import React from "react";
 import styles from './mainNav.module.scss'
-
+import Link from 'next/link';
 
 export default function MainNav({mainnav}: any) {
     console.log('MAINqq==', mainnav);
@@ -16,9 +16,14 @@ export default function MainNav({mainnav}: any) {
                             <div className={`nav navbar justify-content-center align-items-center`}>
                                 <ul className="nav">
                                              
-                                         {mainnav.MenuList.map((element: any, index: any) => (
+                                         {/* {mainnav.MenuList.map((element: any, index: any) => (
                                                <li className="nav-item" key={index}>{element.list}</li>
+                                                ))} */}
+
+                                         {mainnav.MenuList.map((element: any, index: any) => (
+                                               <li className="nav-item" key={index}><Link className="nav-link active" href={`#`}>{element.list}</Link></li>
                                                 ))}
+
 
 
 

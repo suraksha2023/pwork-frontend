@@ -3,7 +3,7 @@ import styles from './innerHero.module.scss'
 
 
 export default function InnerHero({innerhero}: any ){
-    console.log('innerhero', innerhero)
+    console.log('innerhero:', innerhero)
     return (
        <div className={`${styles.innerHero}`}>
            <div className={`container`}>

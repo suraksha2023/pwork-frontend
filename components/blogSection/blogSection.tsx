@@ -10,7 +10,7 @@ export default function BlogSection({blogsection}: any) {
                 <div className={`container`}>
                     <div className={`row`}>
                         <div className={`col-12`}>
-                            <h2>{blogsection.Heading}</h2>
+                            <h2>{blogsection.heading}</h2>
                         </div>
                     </div>
                     <div className={`row`}>
