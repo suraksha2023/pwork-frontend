@@ -7,7 +7,7 @@ export class ApiService {
       if(process.env.NEXT_PUBLIC_API_ENV == 'dev'){
          return "http://localhost/PW/index.php/";
       }else{
-         return "http://localhost/PW/index.php/";
+         return "https://pwwp.netiapps.com/";
       }
          
     }
